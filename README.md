@@ -1,24 +1,16 @@
-# README
+# RubyCKEditorTest: BlogU
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Source code for a personal project in learning Ruby on Rails, and integrating CKEditor 4.x into it. This is a more bare bones project, using as many of the Ruby on Rails defaults as possible for the API and backend, and not using template slimming or minifying.
 
-Things you may want to cover:
+## Key Dependencies Used
 
-* Ruby version
+* mini_magick
+* galetahub/ckeditor
 
-* System dependencies
+## Future Goals: Full Stack Project for a Blog Site
 
-* Configuration
+What began as learning how to implement a gem that makes it easier to integrate CKEditor 4.x into Ruby on Rails, became a vested interest in learning how to do a full-stack project for a blogging service. The plans to expand this project is as follows:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Create the CMS to handle posting blogs
+2. Associated functionalities such as Users, Authentication, Blog Spaces (for particular types of blogs such as "Lord of the Rings")
+3. Improving front end aesthetics, potentially using Vue.js
